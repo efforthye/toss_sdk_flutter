@@ -1,92 +1,98 @@
 # toss_sdk_flutter
 
-Flutter project for testing Toss SDK integration
+A Flutter project for testing Toss SDK integration
 
-## 📱 프로젝트 소개
+## 🚀 Getting Started
 
-토스 SDK를 Flutter와 연동하여 테스트하는 프로젝트입니다.
+This project is a starting point for a Flutter application that will integrate with Toss SDK.
 
-## 🚀 시작하기
-
-### 사전 요구사항
-- Flutter SDK (3.10.0 이상)
-- Dart SDK (3.0.0 이상)
+### Prerequisites
+- Flutter SDK (3.10.0 or higher)
+- Dart SDK (3.0.0 or higher)
 - Android Studio / VS Code
-- iOS 개발 시 Xcode 필요
+- Xcode (for iOS development)
 
-### 설치 및 실행
+### Installation
 
-1. 레포지토리 클론
+1. Clone the repository
 ```bash
 git clone https://github.com/efforthye/toss_sdk_flutter.git
 cd toss_sdk_flutter
 ```
 
-2. 의존성 설치
+2. Install dependencies
 ```bash
 flutter pub get
 ```
 
-3. 환경 변수 설정
+3. Set up environment variables
 ```bash
 cp .env.example .env
-# .env 파일에서 필요한 값들을 설정하세요
+# Configure the required values in .env file
 ```
 
-4. 앱 실행
+4. Run the app
 ```bash
 flutter run
 ```
 
-## 📁 프로젝트 구조
+## 📁 Project Structure
 
 ```
 lib/
-├── main.dart
+├── main.dart                 # App entry point
 ├── core/
-│   ├── constants/
-│   ├── utils/
-│   └── theme/
+│   ├── constants/           # App constants
+│   ├── utils/              # Utility functions
+│   └── theme/              # App theme configuration
 ├── data/
-│   ├── models/
-│   ├── repositories/
-│   └── services/
+│   ├── models/             # Data models
+│   ├── repositories/       # Data repositories
+│   └── services/           # API services
 ├── presentation/
-│   ├── pages/
-│   ├── widgets/
-│   └── providers/
+│   ├── pages/              # UI pages
+│   ├── widgets/            # Reusable widgets
+│   └── providers/          # State management
 └── domain/
-    ├── entities/
-    └── usecases/
+    ├── entities/           # Business entities
+    └── usecases/           # Business logic
 ```
 
-## 🛠 사용 기술
+## 🛠 Tech Stack
 
 - **Framework**: Flutter
-- **상태관리**: Provider
-- **HTTP 통신**: Dio
-- **보안 저장소**: Flutter Secure Storage
-- **환경 변수**: Flutter Dotenv
+- **State Management**: Provider
+- **HTTP Client**: Dio
+- **Secure Storage**: Flutter Secure Storage
+- **Environment Variables**: Flutter Dotenv
 
-## 📝 커밋 컨벤션
+## 📝 Commit Convention
 
 ```
-feat: 새로운 기능 추가
-fix: 버그 수정
-docs: 문서 수정
-style: 코드 포맷팅, 세미콜론 누락 등
-refactor: 코드 리팩토링
-test: 테스트 코드 추가/수정
-chore: 빌드 과정 또는 보조 기능 수정
+feat: add new feature
+fix: bug fix
+docs: documentation changes
+style: code formatting, missing semicolons, etc.
+refactor: code refactoring
+test: adding/modifying tests
+chore: build process or auxiliary tool changes
 ```
 
-예시:
+Examples:
 ```
-feat: toss payment integration
-fix: payment validation error
+feat: add toss payment integration
+fix: resolve payment validation error
 docs: update README with setup instructions
 ```
 
-## 📄 라이센스
+## 📱 Features
+
+- Basic Flutter app structure
+- Environment configuration
+- Theme setup with Toss design colors
+- Provider state management setup
+- Ready for Toss SDK integration
+
+## 📄 License
 
 MIT License
