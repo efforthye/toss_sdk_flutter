@@ -2,7 +2,7 @@
 
 A Flutter project for testing Toss SDK integration
 
-## 🚀 Getting Started
+## Getting Started
 
 This project is a starting point for a Flutter application that will integrate with Toss SDK.
 
@@ -36,7 +36,7 @@ cp .env.example .env
 flutter run
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 lib/
@@ -58,7 +58,7 @@ lib/
     └── usecases/           # Business logic
 ```
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Framework**: Flutter
 - **State Management**: Provider
@@ -66,7 +66,7 @@ lib/
 - **Secure Storage**: Flutter Secure Storage
 - **Environment Variables**: Flutter Dotenv
 
-## 📝 Commit Convention
+## Commit Convention
 
 ```
 feat: add new feature
@@ -78,14 +78,14 @@ test: adding/modifying tests
 chore: build process or auxiliary tool changes
 ```
 
-Examples:
+Examples
 ```
 feat: add toss payment integration
 fix: resolve payment validation error
 docs: update README with setup instructions
 ```
 
-## 📱 Features
+## Features
 
 - Basic Flutter app structure
 - Environment configuration
@@ -93,6 +93,6 @@ docs: update README with setup instructions
 - Provider state management setup
 - Ready for Toss SDK integration
 
-## 📄 License
+## License
 
 MIT License
